@@ -1,3 +1,4 @@
+#palindrome
 a=input()
 s=a[::-1]
 if a==s:
