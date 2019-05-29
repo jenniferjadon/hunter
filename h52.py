@@ -1,6 +1,7 @@
 u=int(input())
-if u%2==0:
-    u=u+1 
-    print(u)
+if u==1 or u==2:
+	print(u)
+elif u%2==0:
+	print(u+1)
 else:
     print(u)
