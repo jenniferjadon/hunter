@@ -1,0 +1,5 @@
+n=int(input())
+f=list(map(int,input().split()))
+s=max(f)
+d=min(f)
+print(f.index(d)+1,f.index(s)+1)
