@@ -9,4 +9,4 @@ for i in range(0,len(l)-1):
 if c==0:
 	print("NO")
 else:
-print("YES")
+	print("YES")
