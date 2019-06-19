@@ -1,10 +1,8 @@
 h,n=map(int,input().split())
 m=list(map(int,input().split()))
-a=[]
-if len(m)==0:
+while n in m:
+    m.remove(n)
+if not m:
     print("empty")
-for i in m:
-    if i!=n:
-        a.append(i)
-print(*a)
-   
+else:
+    print(*m)
